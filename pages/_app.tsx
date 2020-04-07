@@ -8,7 +8,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>NOMAX</title>
+        <title>SALTY EVE'S GACHAPON</title>
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
