@@ -90,7 +90,7 @@ const Home: React.FC = () => {
         '【休日なのに】観音坂独歩'
       ]
       const index = Math.floor(Math.random() * items.length)
-      return { rank: 'SSR', gacha: items[index] }
+      return { rank: 'SR', gacha: items[index] }
     } else {
       /* 3% */
       const items = [
