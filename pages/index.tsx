@@ -20,10 +20,15 @@ const Home: React.FC = () => {
     const result = randomGen()
     setSalt(result)
   }
+  const handleRandom10Time = () => {
+    const result = [...Array(10)].map(() => randomGen())
+    setSalt(result.join(', '))
+  }
   return (
     <div className="container">
       <h1>SALTY EVE'S GACHAPON</h1>
       <button onClick={handleRandom}>Roll</button>
+      <button onClick={handleRandom10Time}> Roll 10 Time</button>
       <h2>Result : {salt}</h2>
     </div>
   )
