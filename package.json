@@ -9,7 +9,15 @@
   },
   "dependencies": {
     "next": "9.3.4",
+    "next-images": "^1.4.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.0",
+    "@types/styled-components": "^5.0.1",
+    "@types/styled-system": "^5.1.9"
   }
 }
